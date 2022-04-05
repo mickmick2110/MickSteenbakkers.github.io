@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        body {background-color: rgb(195, 227, 231);}
+        h1, h2,h3,p {color: black; font-family: Verdana, Geneva, Tahoma, 
+        sans-serif;}
+        button, p, h1, h2, h3 {margin-top: 0;margin-bottom: 0;}
+
+    </style>
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div style="border-bottom-style: solid; border-color: grey;">
+
+        <h1>Mick Steenbakkers</h1>
+
+    </div>
+
+    <div style="border-bottom-style: solid; border-color: grey;">
+
+        <h2>Exercise one</h2>
+        <h3>Now you see me, now you don't!</h3>
+        <p>With a simple click on this button, you will make this doggo dissapear</p>
+
+        <div class="magicDoggo">
+
+            <button id="dogHider" onclick="hideDog()" type="button">Hide the doggo :(</button>
+            <button id="dogShower" onclick="showDog()" type="button">Show the doggo :D</button>
+            <img id="doggo" src="image/dog.jpg">
+            
+        </div>
+
+    </div>
+     
+    <div style="border-bottom-style: solid; border-color: grey;">
+
+        <h2>Exercise two</h2>
+        <h3>Button mania</h3>
+        <p>Press these buttons and see what happens</p>
+
+        <div class="maniaButtons">
+
+            <button id="zeroReturner" onclick="returnToZero()" type="button">Go back to zero</button>
+            <button id="oneAdder" onclick="addOne()" type="button">Add one extra</button>
+            <button id="trippler" onclick="trippleAmmount()" type="button">Triple it!</button>
+
+        </div>
+    
+    </div>
+
+</body>
+</html>
