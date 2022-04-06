@@ -1,0 +1,39 @@
+body {background-color: rgb(22, 164, 207);}
+h2{font-family: 'Roboto Condensed', sans-serif;}
+
+.indigo{
+
+    color: #6610f2;
+
+}
+
+.orange{
+
+    color: #fd7e14;
+
+}
+
+.red{
+
+    color: #dc3545;
+
+}
+
+.yellow{
+
+    color: #ffc107;
+
+}
+
+.teal{
+
+    color: #20c997;
+
+}
+
+.img-responsive{
+
+    width: 100px; 
+    height: 50px;
+    border: black 10px dashed;
+}
